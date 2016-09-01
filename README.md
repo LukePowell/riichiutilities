@@ -1,2 +1,2 @@
-# riichiutilities
+# Riichi Utilities
 General purpose app for Riichi Mahjong. Hand scoring, yaku listing, tournament management, meeting management, event management, score tracking. Etc...
