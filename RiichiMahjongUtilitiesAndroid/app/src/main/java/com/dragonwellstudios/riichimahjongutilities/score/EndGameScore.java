@@ -43,7 +43,7 @@ public final class EndGameScore {
         int oka = calculateOka(startScore, targetScore, playerCount);
         int[] endGameScore = rawScores.clone();
 
-        //3 substrac the target score
+        //3 substract the target score
         for(int i = 0; i < endGameScore.length; ++i){
             endGameScore[i] -= targetScore;
         }
