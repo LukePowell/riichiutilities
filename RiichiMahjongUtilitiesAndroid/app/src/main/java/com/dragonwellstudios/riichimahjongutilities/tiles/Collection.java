@@ -22,5 +22,7 @@ public final class Collection {
 
     private @Collection.CollectionType int type;
     private ArrayList<Tile> collection;
-
+    //This is one way to handle this, when using the app to find tiles that can complete a hand
+    //there are a few special cases that will need to be handled
+    private boolean complete;
 }
