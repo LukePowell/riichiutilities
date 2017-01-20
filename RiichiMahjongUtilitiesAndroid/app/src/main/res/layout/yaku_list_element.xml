@@ -49,7 +49,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 tools:text="1 Han Open 0 Han Closed"
-                android:text="@{yaku.closedOnly || yaku.hanClosed == yaku.hanOpen ? String.format(@string/closed_only_han, yaku.hanClosed) : String.format(@string/han, yaku.hanClosed, yaku.hanOpen)}"
+                android:text="@{yaku.closedOnly || yaku.hanClosed == yaku.hanOpen ? String.format(@string/closed_only_han, yaku.hanClosed) : String.format(@string/han, yaku.hanOpen, yaku.hanClosed)}"
                 android:layout_weight="1" />
 
             <TextView
