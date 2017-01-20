@@ -85,6 +85,7 @@ public class MainActivity extends AppCompatActivity
         if (id == R.id.nav_yaku_list) {
             // Handle the camera action
             YakuListFragment yakuListFragment = YakuListFragment.newInstance();
+            getSupportFragmentManager().beginTransaction().replace(R.id.content_main, yakuListFragment).commit();
         } else if (id == R.id.nav_gallery) {
 
         } else if (id == R.id.nav_slideshow) {

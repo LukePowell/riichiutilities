@@ -7,6 +7,41 @@
     <string name="action_settings">Settings</string>
     <string name="yaku_list">Yaku List</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="closed_only_han">%1$d Han</string>
+    <string name="han">%1$d Han Open %2$d Han Closed</string>
+    <string name="tsumo_localized">Tsumo</string>
+    <string name="tsumo_description">Winning with a closed hand by self draw</string>
+    <string name="tsumo_kanji">門前清自摸和/ツモ</string>
+    <string name="riichi_kanji">立直</string>
+    <string name="riichi_description">Declaring your hand as ready and making a wager</string>
+    <string name="riichi_localized">Riichi</string>
+    <string name="closed_only">Closed Only</string>
+    <string name="ippatsu_localized">Ippatsu</string>
+    <string name="ippatsu_description">Applied when a player wins within 4 uninterrupted turns after declaring Riichi</string>
+    <string name="ippatsu_kanji">一発</string>
+    <string name="pinfu_localized">Pinfu</string>
+    <string name="pinfu_description">Typically known as all sequence, this is a hand that gains no fu from its composition excluding a closed ron. This neccesitates a ryanman wait</string>
+    <string name="pinfu_kanji">平和</string>
+    <string name="iipeikou_localized">Iipeikou</string>
+    <string name="iipeikou_description">A hand containing two identical sequences</string>
+    <string name="iipeikou_kanji">一盃口</string>
+    <string name="haitei_raoyue_localized">Haitei Raoyue</string>
+    <string name="haitei_raoyue_description">Winning with the last tile on the wall</string>
+    <string name="haitei_raoyue_kanji">海底撈月</string>
+    <string name="houtei_raoyui_localized">Houtei Raoyui</string>
+    <string name="houtei_raoyui_description">Winning with the last discard</string>
+    <string name="houtei_raoyui_kanji">河底撈魚</string>
+    <string name="rinshan_kaihou_localized">Rinshan Kaihou</string>
+    <string name="rinshan_kaihou_description">Winning with a tile from the dead wall</string>
+    <string name="rinshan_kaihou_kanji">嶺上開花</string>
+    <string name="chankan_localized">Chankan</string>
+    <string name="chankan_description">Winning by stealing the kan tile of a melded kan</string>
+    <string name="chankan_kanji">搶槓</string>
+    <string name="tanyao_localized">Tanyao</string>
+    <string name="tanyao_description">A hand composed solely of inner (2–8) tiles, closed only on variation</string>
+    <string name="tanyao_kanji">断幺九</string>
+    <string name="chantaiyao_localized">Chantaiyao</string>
+    <string name="chantaiyao_description">All groups contain at least 1 terminal or honor tile</string>
+    <string name="chaintaiyao_kanji">全帯幺九</string>
 </resources>
