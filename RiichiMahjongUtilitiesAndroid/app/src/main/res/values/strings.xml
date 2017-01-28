@@ -125,4 +125,5 @@
     <string name="chiihou_kanji">「地和」</string>
     <string name="nagashi_mangan_kanji" translatable="false">「流し満貫」</string>
     <string name="kokushi_mosou_kanji" translatable="false">「国士無双 or 国士無双１３面待ち」</string>
+    <string name="filter">Filter</string>
 </resources>
