@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout xmlns:tools="http://schemas.android.com/tools"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
 
     <data>
 
@@ -19,56 +19,64 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:paddingEnd="@dimen/activity_horizontal_margin"
+            android:paddingStart="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin">
 
             <TextView
-                android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:text="@{yaku.localizedName}"
                 android:textAppearance="@style/TextAppearance.AppCompat.Title"
                 tools:text="Menzen Tsumo" />
 
             <TextView
+                android:id="@+id/textView2"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:paddingStart="6dp"
-                android:paddingEnd="6dp"
-                android:id="@+id/textView2"
+                android:layout_gravity="end"
                 android:layout_weight="1"
-                android:textAppearance="@style/TextAppearance.AppCompat.Title"
-                android:text="@{yaku.kanjiName}"
-                tools:text="(門前清自摸和)"
                 android:gravity="end"
-                android:layout_gravity="end" />
+                android:paddingEnd="6dp"
+                android:paddingStart="6dp"
+                android:text="@{yaku.kanjiName}"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                tools:text="(門前清自摸和)" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:paddingEnd="@dimen/activity_horizontal_margin"
+            android:paddingStart="@dimen/activity_horizontal_margin">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                tools:text="1 Han Open 0 Han Closed"
-                android:text="@{yaku.closedOnly || yaku.hanClosed == yaku.hanOpen ? String.format(@string/closed_only_han, yaku.hanClosed) : String.format(@string/han, yaku.hanOpen, yaku.hanClosed)}"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:text="@{yaku.hanOpen >= 13 || yaku.hanClosed >= 13 ?  @string/yakuman : (yaku.closedOnly || yaku.hanClosed == yaku.hanOpen ? String.format(@string/closed_only_han, yaku.hanClosed) : String.format(@string/han, yaku.hanOpen, yaku.hanClosed))}"
+                tools:text="1 Han Open 0 Han Closed" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:text="@string/closed_only"
-                android:visibility="@{yaku.closedOnly ? View.VISIBLE : View.GONE}"
-                android:layout_weight="1" />
+                android:visibility="@{yaku.closedOnly ? View.VISIBLE : View.GONE}" />
         </LinearLayout>
 
         <TextView
+            style="@style/Base.TextAppearance.AppCompat.Body1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            style="@style/Base.TextAppearance.AppCompat.Body1"
-            tools:text="Descrption of the yaku"
-            android:text="@{yaku.localizedDescription}" />
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingEnd="@dimen/activity_horizontal_margin"
+            android:paddingStart="@dimen/activity_horizontal_margin"
+            android:text="@{yaku.localizedDescription}"
+            tools:text="Descrption of the yaku" />
 
         <View
             android:layout_width="match_parent"

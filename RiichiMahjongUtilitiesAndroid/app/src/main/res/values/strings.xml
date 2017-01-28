@@ -90,7 +90,7 @@
     <string name="chinitsu_description">Composed entirely of a single suit</string>
     <string name="kazoe_yakuman_description">A hand that scores at least 13 han through a combination of the other yaku and dora</string>
     <string name="kokushi_musou_description">Consists of one of each of the 13 terminals, and honors and any one extra terminal or honor tiles. Some rulesets allow double yakuman for a 13 sided wait</string>
-    <string name="suuankou_description">Big four winds, a set of all four winds</string>
+    <string name="suuankou_description">Four closed triplets, when on a shanpon wait and won by ron counted as the lesser toi toi with sanankou</string>
     <string name="daisangen_description">Triplets or quads of all three dragons</string>
     <string name="shosuushi_description">Little three winds, this hand contains a set of 3 of the winds and a pair of the fourth.</string>
     <string name="daisuushi_description">Big four winds, group (triplets or quads) of all winds</string>
@@ -126,4 +126,5 @@
     <string name="nagashi_mangan_kanji" translatable="false">「流し満貫」</string>
     <string name="kokushi_mosou_kanji" translatable="false">「国士無双 or 国士無双１３面待ち」</string>
     <string name="filter">Filter</string>
+    <string name="yakuman">Yakuman</string>
 </resources>
