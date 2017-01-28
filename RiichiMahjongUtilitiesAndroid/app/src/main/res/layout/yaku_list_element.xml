@@ -17,12 +17,13 @@
         android:orientation="vertical">
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
             <TextView
-                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="@{yaku.localizedName}"
                 android:textAppearance="@style/TextAppearance.AppCompat.Title"
@@ -37,7 +38,9 @@
                 android:layout_weight="1"
                 android:textAppearance="@style/TextAppearance.AppCompat.Title"
                 android:text="@{yaku.kanjiName}"
-                tools:text="(門前清自摸和)" />
+                tools:text="(門前清自摸和)"
+                android:gravity="end"
+                android:layout_gravity="end" />
         </LinearLayout>
 
         <LinearLayout

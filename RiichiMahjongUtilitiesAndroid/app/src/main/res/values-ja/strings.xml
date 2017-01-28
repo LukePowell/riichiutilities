@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Riichi Mahjong Utilities</string>
+    <string name="tsumo">@string/tsumo_kanji</string>
+    <string name="toitoi">@string/toitoi_kanji</string>
+    <string name="chinroutou_description">\@string/chinroutou_kanji</string>
+    <string name="chankan">\@string/chankan_kanji</string>
+    <string name="chantaiyao">\@string/chantaiyao_kanji</string>
+    <string name="chiitoitsu">\@string/chiitoitsu_kanji</string>
+    <string name="chinitsu">\@string/chinitsu_kanji</string>
+    <string name="chinroutou">\@string/chinroutou_kanji</string>
+    <string name="daisuushi">\@string/daisuushi_kanji</string>
+    <string name="haitei_raoyue">\@string/haitei_raoyue_kanji</string>
+</resources>

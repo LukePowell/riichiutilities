@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Riichi Mahjong Utilities</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -10,38 +10,119 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="closed_only_han">%1$d Han</string>
     <string name="han">%1$d Han Open %2$d Han Closed</string>
-    <string name="tsumo_localized">Tsumo</string>
+    <string name="tsumo">Tsumo</string>
+    <string name="tsumo_kanji" translatable="false">門前清自摸和/ツモ</string>
     <string name="tsumo_description">Winning with a closed hand by self draw</string>
-    <string name="tsumo_kanji">門前清自摸和/ツモ</string>
-    <string name="riichi_kanji">立直</string>
+    <string name="riichi_kanji" translatable="false">立直</string>
     <string name="riichi_description">Declaring your hand as ready and making a wager</string>
-    <string name="riichi_localized">Riichi</string>
+    <string name="riichi">Riichi</string>
     <string name="closed_only">Closed Only</string>
-    <string name="ippatsu_localized">Ippatsu</string>
+    <string name="ippatsu">Ippatsu</string>
     <string name="ippatsu_description">Applied when a player wins within 4 uninterrupted turns after declaring Riichi</string>
-    <string name="ippatsu_kanji">一発</string>
-    <string name="pinfu_localized">Pinfu</string>
-    <string name="pinfu_description">Typically known as all sequence, this is a hand that gains no fu from its composition excluding a closed ron. This neccesitates a ryanman wait</string>
-    <string name="pinfu_kanji">平和</string>
-    <string name="iipeikou_localized">Iipeikou</string>
+    <string name="ippatsu_kanji" translatable="false">一発</string>
+    <string name="pinfu">Pinfu</string>
+    <string name="pinfu_description">Typically known as all sequence, this is a hand that gains no fu from its composition excluding a closed ron. This necessitates a ryanman wait</string>
+    <string name="pinfu_kanji" translatable="false">平和</string>
+    <string name="iipeikou">Iipeikou</string>
     <string name="iipeikou_description">A hand containing two identical sequences</string>
-    <string name="iipeikou_kanji">一盃口</string>
-    <string name="haitei_raoyue_localized">Haitei Raoyue</string>
+    <string name="iipeikou_kanji" translatable="false">一盃口</string>
+    <string name="haitei_raoyue">Haitei Raoyue</string>
     <string name="haitei_raoyue_description">Winning with the last tile on the wall</string>
-    <string name="haitei_raoyue_kanji">海底撈月</string>
-    <string name="houtei_raoyui_localized">Houtei Raoyui</string>
+    <string name="haitei_raoyue_kanji" translatable="false">海底撈月</string>
+    <string name="houtei_raoyui">Houtei Raoyui</string>
     <string name="houtei_raoyui_description">Winning with the last discard</string>
-    <string name="houtei_raoyui_kanji">河底撈魚</string>
-    <string name="rinshan_kaihou_localized">Rinshan Kaihou</string>
+    <string name="houtei_raoyui_kanji" translatable="false">河底撈魚</string>
+    <string name="rinshan_kaihou">Rinshan Kaihou</string>
     <string name="rinshan_kaihou_description">Winning with a tile from the dead wall</string>
-    <string name="rinshan_kaihou_kanji">嶺上開花</string>
-    <string name="chankan_localized">Chankan</string>
+    <string name="rinshan_kaihou_kanji" translatable="false">嶺上開花</string>
+    <string name="chankan">Chankan</string>
     <string name="chankan_description">Winning by stealing the kan tile of a melded kan</string>
-    <string name="chankan_kanji">搶槓</string>
-    <string name="tanyao_localized">Tanyao</string>
+    <string name="chankan_kanji" translatable="false">搶槓</string>
+    <string name="tanyao">Tanyao</string>
     <string name="tanyao_description">A hand composed solely of inner (2–8) tiles, closed only on variation</string>
-    <string name="tanyao_kanji">断幺九</string>
-    <string name="chantaiyao_localized">Chantaiyao</string>
+    <string name="tanyao_kanji" translatable="false">断幺九</string>
+    <string name="chantaiyao">Chantaiyao</string>
     <string name="chantaiyao_description">All groups contain at least 1 terminal or honor tile</string>
-    <string name="chaintaiyao_kanji">全帯幺九</string>
+    <string name="chaintaiyao_kanji" translatable="false">全帯幺九</string>
+    <string name="sanshoku_doujun">Sanshoku Doujun</string>
+    <string name="sanshoku_doujun_description">Three identical sequences across the three suits</string>
+    <string name="sanshoku_doujun_kanji" translatable="false">「三色同順」</string>
+    <string name="ittsu">Ittsu</string>
+    <string name="ittsu_description">The complete sequence 1–9 in a single suit, treated as three sequences 123 456 789</string>
+    <string name="ittsu_kanji" translatable="false">「一気通貫」</string>
+    <string name="toitoi">Toitoi</string>
+    <string name="toitoi_description">Composed entirely of triplets</string>
+    <string name="toitoi_kanji" translatable="false">「対々」</string>
+    <string name="sanankou">Sanankou</string>
+    <string name="sanankou_description" translatable="false">Contains 3 sets (triplets or quads) that have been formed without calling tiles</string>
+    <string name="sanankou_kanji" translatable="false">「対々」</string>
+    <string name="sanshoku_doukou">Sanshoku Doukou</string>
+    <string name="sanshoku_doukou_description">An identical sequence in three suits</string>
+    <string name="sankantsu">Sankantsu</string>
+    <string name="chiitoitsu">Chiitoitsu</string>
+    <string name="honroutou">Honroutou</string>
+    <string name="shousangen">Shousangen</string>
+    <string name="honitus">Honitsu</string>
+    <string name="junchan_taiyao">Junchan Taiyao</string>
+    <string name="ryanpeikou">Ryanpeikou</string>
+    <string name="chinitsu">Chinitsu</string>
+    <string name="kazoe_yakuman">Kazoe Yakuman</string>
+    <string name="kokushi_musou">Kokushi Musou</string>
+    <string name="suuankou">Suuankou</string>
+    <string name="daisangen">Daisangen</string>
+    <string name="shosuushi">Shosuushi</string>
+    <string name="daisuushi">Daisuushi</string>
+    <string name="tsuuiisou">Tsuuiisou</string>
+    <string name="chinroutou">Chinroutou</string>
+    <string name="ryuuiisou">Ryuuiisou</string>
+    <string name="chuuren_poutou">Chuuren Poutou</string>
+    <string name="suukantsu">Suukantsu</string>
+    <string name="tenhou">Tenhou</string>
+    <string name="chiihou">Chiihou</string>
+    <string name="nagashi_mangan">Nagashi Mangan</string>
+    <string name="sankantsu_description">Three called kans</string>
+    <string name="chiitoitsu_description">Composed of seven pairs</string>
+    <string name="honroutou_description" tools:ignore="Typos">A hand composed solely of terminals and honors. May be considered as 4 han, impossible to score without toi toi or chii toitsu</string>
+    <string name="shousangen_description">A hand containing a set of two of the dragons, and a pair of the third. Can be counted as 4 han as 2 han are gained from yakftuhai</string>
+    <string name="honitsu_description" translatable="false">A hand consisting of a single suit and honours</string>
+    <string name="junchan_taiyao_description">All sets contain at least a single honor tile</string>
+    <string name="ryanpeikou_description">A hand consisting of two sets of iipeikou, does not combine with chii toitsu</string>
+    <string name="chinitsu_description">Composed entirely of a single suit</string>
+    <string name="kazoe_yakuman_description">A hand that scores at least 13 han through a combination of the other yaku and dora</string>
+    <string name="kokushi_musou_description">Consists of one of each of the 13 terminals, and honors and any one extra terminal or honor tiles. Some rulesets allow double yakuman for a 13 sided wait</string>
+    <string name="suuankou_description">Big four winds, a set of all four winds</string>
+    <string name="daisangen_description">Triplets or quads of all three dragons</string>
+    <string name="shosuushi_description">Little three winds, this hand contains a set of 3 of the winds and a pair of the fourth.</string>
+    <string name="daisuushi_description">Big four winds, group (triplets or quads) of all winds</string>
+    <string name="tsuuiisou_description">Every group is composed of honor tiles</string>
+    <string name="chinroutou_description">Every group is composed of terminal tiles</string>
+    <string name="ryuuiisou_description">A hand consting entirely of green tiles, 2, 3, 4, 6, 8 sou and hatsu (green dragon)</string>
+    <string name="chuuren_poutou_description">A hand consisting of 1112345678999 plus an one extra of the same suit</string>
+    <string name="suukantsu_description">Four kans</string>
+    <string name="tenhou_description">Dealer wins with their starting hand</string>
+    <string name="chiihou_description">Non-Dealer wins with first draw </string>
+    <string name="nagashi_mangan_description">All discards are terminals and honors, additionally no tiles are called from your discards</string>
+    <string name="sanshoku_doukou_kanji" translatable="false">「三色同順」</string>
+    <string name="sankantsu_kanji" translatable="false">「三槓子」</string>
+    <string name="chiitoitsu_kanji" translatable="false">「七対子」</string>
+    <string name="honroutou_kaniji" translatable="false">「混老頭」</string>
+    <string name="shousangen_kanji" translatable="false">「小三元」</string>
+    <string name="honitsu_kanji" translatable="false">「混一色」</string>
+    <string name="juchan_taiyao_kanji" translatable="false">「純全帯么」</string>
+    <string name="ryanpeikou_kanji" translatable="false">「二盃口」</string>
+    <string name="chinitsu_kanji" translatable="false">「清一色」</string>
+    <string name="kazoe_yakuman_kanji" translatable="false">「数え役満」</string>
+    <string name="suuankou_kanji" translatable="false">「四喜和」</string>
+    <string name="daisangen_kanji" translatable="false">「大三元」</string>
+    <string name="shosuushi_kanji">「小四喜」</string>
+    <string name="daisuushi_kanji" translatable="false">"「大四喜」 "</string>
+    <string name="tsuuiisou_kanji" translatable="false">「字一色」</string>
+    <string name="chinroutou_kanji" translatable="false">「清老頭」</string>
+    <string name="ryuuiisou_kanji" translatable="false">「緑一色」</string>
+    <string name="chuuren_poutou_kanji" translatable="false">「九連宝燈 or 純正九蓮宝燈」</string>
+    <string name="suukantsu_kanji" translatable="false">「四槓子」</string>
+    <string name="tenhou_kanji" translatable="false">「天和」</string>
+    <string name="chiihou_kanji">「地和」</string>
+    <string name="nagashi_mangan_kanji" translatable="false">「流し満貫」</string>
+    <string name="kokushi_mosou_kanji" translatable="false">「国士無双 or 国士無双１３面待ち」</string>
 </resources>
